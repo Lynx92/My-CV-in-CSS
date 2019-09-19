@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.l-upSquare {
+  background: #449297;
+  width: 20rem;
+  height: 15rem;
+  position: relative;
+  margin-left: 2rem;
+}
+
+.l-upSquare .l-line {
+  background: white;
+  width: 18rem;
+  height: 0.3rem;
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.l-upSquare .l-down {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.l-upSquare .l-down:hover {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+
+.l-upSquare .l-down a {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.l-upSquare .l-down a img {
+  width: 5rem;
+  opacity: 0.6;
+}
+
+.l-name {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  margin: 1rem 2rem;
+  position: relative;
+}
+
+.l-name h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.l-name h2 {
+  font-size: 1.5rem;
+}
+
+.l-name img {
+  border-radius: 50%;
+  position: absolute;
+  top: -10rem;
+  right: 10rem;
+}
+
+.l-body {
+  display: flex;
+  background: #449297;
+  width: 20rem;
+  height: auto;
+  color: white;
+  margin-left: 2rem;
+  position: relative;
+}
+
+.l-body .l-line {
+  background: white;
+  width: 18rem;
+  height: 0.3rem;
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: 1rem;
+}
+
+.l-body .l-contact {
+  width: 20rem;
+  height: auto;
+}
+
+.l-body .l-contact .l-links {
+  font-size: 2rem;
+  width: 20rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.l-body .l-contact .l-links div {
+  margin: 2.5rem 0;
+}
+
+.l-body .l-contact .l-links div:hover {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+
+.l-body .l-contact .l-links img {
+  height: 5rem;
+}
+
+.l-body .l-info {
+  background: white;
+  margin: 2rem 0 0 5rem;
+  color: gray;
+}
+
+.l-body .l-info .l-exp,
+.l-body .l-info .l-educ,
+.l-body .l-info .l-skil {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.l-body .l-info .l-exp h1,
+.l-body .l-info .l-educ h1,
+.l-body .l-info .l-skil h1 {
+  color: #449297;
+  border-bottom: 4px solid #449297;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.l-body .l-info .l-exp .l-item .l-description,
+.l-body .l-info .l-educ .l-item .l-description,
+.l-body .l-info .l-skil .l-item .l-description {
+  display: flex;
+  font-size: 1rem;
+  margin: 2rem 2rem;
+}
+
+.l-body .l-info .l-exp .l-item .l-description .l-year,
+.l-body .l-info .l-educ .l-item .l-description .l-year,
+.l-body .l-info .l-skil .l-item .l-description .l-year {
+  width: 10rem;
+  font-weight: bold;
+}
+
+.l-body .l-info .l-exp .l-item .l-description .l-site,
+.l-body .l-info .l-educ .l-item .l-description .l-site,
+.l-body .l-info .l-skil .l-item .l-description .l-site {
+  width: 25rem;
+  font-weight: bold;
+}
+
+.l-body .l-info .l-exp .l-item .l-description .l-site .l-job,
+.l-body .l-info .l-educ .l-item .l-description .l-site .l-job,
+.l-body .l-info .l-skil .l-item .l-description .l-site .l-job {
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+.l-body .l-info .l-exp .l-item .l-description .l-comp,
+.l-body .l-info .l-educ .l-item .l-description .l-comp,
+.l-body .l-info .l-skil .l-item .l-description .l-comp {
+  font-weight: 300;
+}
+
+.l-body .l-info .l-exp .l-item .l-description .l-comp ul,
+.l-body .l-info .l-educ .l-item .l-description .l-comp ul,
+.l-body .l-info .l-skil .l-item .l-description .l-comp ul {
+  margin-top: 1rem;
+  width: 18rem;
+}
+
+.l-body .l-info .l-exp .l-item .l-description .l-comp ul li,
+.l-body .l-info .l-educ .l-item .l-description .l-comp ul li,
+.l-body .l-info .l-skil .l-item .l-description .l-comp ul li {
+  margin-bottom: 1rem;
+}
+
+.l-body .l-info .l-skil h3 {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.l-body .l-info .l-skil .l-skilCont {
+  display: flex;
+}
+
+.l-body .l-info .l-skil .l-techContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30rem;
+}
+
+.l-body .l-info .l-skil .l-techContainer div {
+  background: #449297;
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 3rem;
+}
+
+.l-body .l-info .l-skil .l-soft {
+  margin-left: 10rem;
+}
+
+.l-body .l-info .l-skil .l-soft ul li {
+  margin: 1rem 0;
+}
+
+.l-footer {
+  background: #449297;
+  width: 100vw;
+  height: 10rem;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.l-footer .l-line {
+  background: white;
+  width: 90%;
+  height: 0.3rem;
+  position: absolute;
+  top: 1rem;
+  right: 5%;
+  left: 5%;
+}
+
+.l-footer .l-text {
+  margin-top: 3rem;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 4rem;
+}
